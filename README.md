@@ -23,3 +23,11 @@ The LSTM network consists of the following:
 - An embedding layer to convert text input into dense word vectors.
 - LSTM layers to capture sequential dependencies in the text.
 - Fully connected (Dense) layers with softmax activation for multi-class classification.
+
+
+## Steps Involved
+1. **Data Preprocessing**: Tokenization, padding, and embedding.
+2. **Model Building**: Design and implementation of the LSTM network.
+3. **Model Training**: Training the LSTM model on the training dataset.
+4. **Evaluation**: Evaluating the performance on the test set.
+5. **Deployment** (future work): Deploy the model as a web service.
