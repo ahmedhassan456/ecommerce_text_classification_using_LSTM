@@ -13,3 +13,13 @@ This project uses LSTM, a type of recurrent neural network (RNN) architecture, w
 - **LSTM-based Model**: A deep learning model to classify the processed text data.
 - **Evaluation**: Performance metrics like accuracy, precision, recall, and F1-score are computed to assess the model.
 - **Future Work**: The project will be deployed using FastAPI, Streamlit, or other deployment tools.
+
+
+## Data
+The dataset used for this project consists of ecommerce-related text data. The text is labeled into different categories (e.g., product type, review sentiment, customer query type). Specific preprocessing steps like cleaning, tokenization, padding, and vectorization have been applied.
+
+## Model Architecture
+The LSTM network consists of the following:
+- An embedding layer to convert text input into dense word vectors.
+- LSTM layers to capture sequential dependencies in the text.
+- Fully connected (Dense) layers with softmax activation for multi-class classification.
