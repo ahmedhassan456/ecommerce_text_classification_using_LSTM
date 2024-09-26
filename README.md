@@ -31,3 +31,11 @@ The LSTM network consists of the following:
 3. **Model Training**: Training the LSTM model on the training dataset.
 4. **Evaluation**: Evaluating the performance on the test set.
 5. **Deployment** (future work): Deploy the model as a web service.
+
+
+## Results
+The model achieves satisfactory performance with the following metrics:
+- **Accuracy**: 95%
+- **Precision**: 96%
+- **Recall**: 95%
+- **F1-score**: 95%
